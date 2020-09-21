@@ -134,10 +134,13 @@
       <section class="presentation" id="presentation-section">
         <video
           class="presentation__video"
+          preload="metadata"
           muted
+          loop
+          src="./video/Luna by crazybaby.mp4"
           poster="./images/video-preview.jpg"
         >
-          <source src="#" type="video/mp4">
+
         </video>
         <div class="presentation__skirt">
           <div class="presentation__play"></div>
@@ -335,6 +338,11 @@
         &copy; 2019 All rights reserved. Terms of Use &amp; Privacy Policy
       </p>
     </footer>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <script
+      type="text/javascript"
+      src="scripts/main.js"
+      defer
+    >
+    </script>
   </body>
 </html>
